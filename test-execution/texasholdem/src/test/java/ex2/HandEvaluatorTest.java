@@ -15,10 +15,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package org.ozsoft.texasholdem;
+package ex2;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.ozsoft.texasholdem.Hand;
+import org.ozsoft.texasholdem.HandEvaluator;
+import org.ozsoft.texasholdem.HandValueType;
 
 /**
  * Test suite for the HandEvaluator class.

@@ -15,13 +15,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package org.ozsoft.texasholdem;
+package ex2;
 
 import java.util.ArrayList;
 import java.util.Collection;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.ozsoft.texasholdem.Card;
+import org.ozsoft.texasholdem.Hand;
 
 /**
  * Test suite for the Hand class.

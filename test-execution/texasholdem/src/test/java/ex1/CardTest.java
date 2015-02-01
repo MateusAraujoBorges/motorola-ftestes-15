@@ -15,10 +15,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package org.ozsoft.texasholdem;
+package ex1;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.ozsoft.texasholdem.Card;
 
 /**
  * Test suite for the Card class.

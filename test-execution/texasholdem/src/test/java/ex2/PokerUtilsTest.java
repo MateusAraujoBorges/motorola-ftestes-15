@@ -15,11 +15,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package org.ozsoft.texasholdem.util;
+package ex2;
 
 import org.junit.Assert;
 import org.junit.Test;
 import org.ozsoft.texasholdem.Card;
+import org.ozsoft.texasholdem.util.PokerUtils;
 
 /**
  * Test suite for the <code>PokerUtils</code> class.
