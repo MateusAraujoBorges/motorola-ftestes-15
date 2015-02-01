@@ -81,6 +81,7 @@ public class CardTest {
         Assert.assertEquals(1, _2c.hashCode());
         Assert.assertEquals(4, _3d.hashCode());
         Assert.assertEquals(5, _3c.hashCode());
+        
         Assert.assertTrue(_2d.compareTo(_2d) == 0);
         Assert.assertTrue(_2d.compareTo(_3d) < 0);
         Assert.assertTrue(_3d.compareTo(_2d) > 0);

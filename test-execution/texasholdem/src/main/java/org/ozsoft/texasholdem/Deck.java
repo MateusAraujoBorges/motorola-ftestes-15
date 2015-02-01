@@ -41,7 +41,7 @@ public class Deck {
     /** The index of the next card to deal. */
     private int nextCardIndex = 0;
     
-    /** Random number generator (crypographical quality). */
+	/** Random number generator (crypographical quality). */
     private Random random = new SecureRandom();
 
     /**
@@ -166,5 +166,9 @@ public class Deck {
         }
         return sb.toString().trim();
     }
-    
+
+    public int getNextCardIndex() {
+		return nextCardIndex;
+	}
+
 }
