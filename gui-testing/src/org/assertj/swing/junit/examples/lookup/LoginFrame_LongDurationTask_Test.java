@@ -37,6 +37,7 @@ public class LoginFrame_LongDurationTask_Test extends SwingJUnitExamples {
   public void shouldLookupWithDefaultTimeoutByName() {
     // now the interesting part, we need to wait till the main window is shown.
     FrameFixture mainFrame = findFrame("main").using(robot());
+    // bug: https://github.com/joel-costigliola/assertj-swing/issues/148
     mainFrame.requireVisible();
   }
 
