@@ -18,7 +18,7 @@ public class DeckServiceTest {
 		try {
 			Thread.sleep(1000);
 		} catch (InterruptedException e) {
-			System.out.println("Shouldn't happen");
+			System.out.println("Shouldn't happen, but...");
 		}
 		return deck;
 	}
