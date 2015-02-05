@@ -13,7 +13,7 @@
     <path id="TexasHoldEm.classpath">
         <pathelement location="target/classes"/>
         <pathelement location="target/test-classes"/>
-        <pathelement location="lib/hamcrest-core-1.3.jar"/>
+        <pathelement location="lib/hamcrest-all-1.3.jar"/>
         <pathelement location="lib/junit-4.11.jar"/>
     </path>
     <target name="init">
