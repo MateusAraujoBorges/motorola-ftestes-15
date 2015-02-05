@@ -38,7 +38,7 @@ public class CardTest {
         Assert.assertEquals(Card.TEN, card.getRank());
         Assert.assertEquals(Card.HEARTS, card.getSuit());
         Assert.assertEquals("Th", card.toString());
-        card = new Card("   As "); // Automatic trimming.
+        card = new Card("  As "); // Automatic trimming.
         Assert.assertNotNull(card);
         Assert.assertEquals(Card.ACE, card.getRank());
         Assert.assertEquals(Card.SPADES, card.getSuit());
