@@ -105,10 +105,10 @@
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
-            <test name="org.ozsoft.texasholdem.BasicBotTest" todir="${junit.output.dir}"/>
-            <test name="org.ozsoft.texasholdem.CardTest" todir="${junit.output.dir}"/>
-            <test name="org.ozsoft.texasholdem.HandEvaluatorTest" todir="${junit.output.dir}"/>
-            <test name="org.ozsoft.texasholdem.HandTest" todir="${junit.output.dir}"/>
+            <test name="ex1.BasicBotTest" todir="${junit.output.dir}"/>
+            <test name="ex1.CardTest" todir="${junit.output.dir}"/>
+            <test name="ex1.HandEvaluatorTest" todir="${junit.output.dir}"/>
+            <test name="ex1.HandTest" todir="${junit.output.dir}"/>
             <classpath refid="TexasHoldEm.classpath"/>
         </junit>
     </target>
