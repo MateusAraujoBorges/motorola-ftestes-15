@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="cioba" name="ex1.BasicBotTest" tests="1" time="0.0" timestamp="2015-02-05T22:00:51">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.SESSION_MANAGER" value="local/cioba:@/tmp/.ICE-unix/1901,unix/cioba:/tmp/.ICE-unix/1901" />
+    <property name="env.LESSOPEN" value="| /usr/bin/lesspipe %s" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.TERMCAP" value="" />
+    <property name="os.name" value="Linux" />
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes" />
+    <property name="env.PWD" value="/home/mateus/workspace/motorola-ftestes-15/mutation/texasholdem" />
+    <property name="env.XDG_SESSION_COOKIE" value="aab3afbd80a27384c97044fa00000007-1423149907.20344-502947995" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="env.LANG" value="en_US.UTF-8" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="java.runtime.version" value="1.7.0_65-b32" />
+    <property name="env.DEFAULTS_PATH" value="/usr/share/gconf/ubuntu.default.path" />
+    <property name="env.DISPLAY" value=":0" />
+    <property name="user.name" value="mateus" />
+    <property name="env._" value="/usr/bin/ant" />
+    <property name="env.USER" value="mateus" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.DESKTOP_SESSION" value="ubuntu" />
+    <property name="env.XDG_DATA_DIRS" value="/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/" />
+    <property name="env.PATH" value="/home/mateus/bin:/usr/lib/lightdm/lightdm:/opt/texbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games" />
+    <property name="env.XDG_CURRENT_DESKTOP" value="Unity" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="TexasHoldEm" />
+    <property name="java.version" value="1.7.0_65" />
+    <property name="user.timezone" value="" />
+    <property name="ant.file.TexasHoldEm" value="/home/mateus/workspace/motorola-ftestes-15/mutation/texasholdem/build.xml" />
+    <property name="env.DBUS_SESSION_BUS_ADDRESS" value="unix:abstract=/tmp/dbus-ISMvmzuzzs,guid=7f1cf1f358e31d38c93472e20000cc9a" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="env.COMPIZ_CONFIG_PROFILE" value="ubuntu" />
+    <property name="env.SSH_AGENT_PID" value="1936" />
+    <property name="env.MATHEMATICA_HOME" value="/usr/local/Wolfram/Mathematica/10.0" />
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.SHLVL" value="2" />
+    <property name="ECLIPSE_HOME" value="../../../../tools/eclipse/" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="env.GNOME_DESKTOP_SESSION_ID" value="this-is-deprecated" />
+    <property name="java.class.version" value="51.0" />
+    <property name="env.GDMSESSION" value="ubuntu" />
+    <property name="user.country" value="US" />
+    <property name="env.GNOME_KEYRING_PID" value="1890" />
+    <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="mateus" />
+    <property name="ant.file" value="/home/mateus/workspace/motorola-ftestes-15/mutation/texasholdem/build.xml" />
+    <property name="os.version" value="3.2.0-75-generic" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="24.65-b04" />
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="env.XDG_SESSION_PATH" value="/org/freedesktop/DisplayManager/Session2" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.EMACS" value="t" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="env.TERM" value="dumb" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="ant.file.type.TexasHoldEm" value="file" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="env.COLUMNS" value="205" />
+    <property name="user.home" value="/home/mateus" />
+    <property name="target" value="1.7" />
+    <property name="env.OLDPWD" value="/home/mateus/workspace/motorola-ftestes-15/mutation" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.WINDOWID" value="62914566" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="java.class.path" value="/home/mateus/workspace/motorola-ftestes-15/mutation/texasholdem/target/classes:/home/mateus/workspace/motorola-ftestes-15/mutation/texasholdem/target/test-classes:/home/mateus/workspace/motorola-ftestes-15/mutation/texasholdem/lib/hamcrest-all-1.3.jar:/home/mateus/workspace/motorola-ftestes-15/mutation/texasholdem/lib/junit-4.11.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.8.2.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ex1.BasicBotTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/mateus/workspace/motorola-ftestes-15/mutation/texasholdem/junit/TEST-ex1.BasicBotTest.xml crashfile=/home/mateus/workspace/motorola-ftestes-15/mutation/texasholdem/junitvmwatcher8060551017930291141.properties propsfile=/home/mateus/workspace/motorola-ftestes-15/mutation/texasholdem/junit6281738614989438061.properties" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 3 2011" />
+    <property name="env.UBUNTU_MENUPROXY" value="libappmenu.so" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.HOME" value="/home/mateus" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="env.XDG_SEAT_PATH" value="/org/freedesktop/DisplayManager/Seat0" />
+    <property name="env.LS_COLORS" value="" />
+    <property name="env.INSIDE_EMACS" value="24.3.1,comint" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SSH_AUTH_SOCK" value="/tmp/keyring-wmXOZg/ssh" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="user.dir" value="/home/mateus/workspace/motorola-ftestes-15/mutation/texasholdem" />
+    <property name="env.XAUTHORITY" value="/home/mateus/.Xauthority" />
+    <property name="env.MANDATORY_PATH" value="/usr/share/gconf/ubuntu.mandatory.path" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="env.COLORTERM" value="gnome-terminal" />
+    <property name="basedir" value="/home/mateus/workspace/motorola-ftestes-15/mutation/texasholdem" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="source" value="1.7" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="env.GPG_AGENT_INFO" value="/tmp/keyring-wmXOZg/gpg:0:1" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="env.GNOME_KEYRING_CONTROL" value="/tmp/keyring-wmXOZg" />
+    <property name="env.XDG_CONFIG_DIRS" value="/etc/xdg/xdg-ubuntu:/etc/xdg" />
+    <property name="ant.project.invoked-targets" value="pit" />
+    <property name="env.LESSCLOSE" value="/usr/bin/lesspipe %s %s" />
+  </properties>
+  <error message="ex1.BasicBotTest" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: ex1.BasicBotTest
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:191)
+</error>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

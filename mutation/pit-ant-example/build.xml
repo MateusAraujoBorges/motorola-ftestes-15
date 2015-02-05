@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="pit-ant-example">
+<project name="pit-ant-example" default="build">
 
 	<property name="classOutputDir" value="build" />
 
@@ -23,7 +23,7 @@
 
 
 
-	<target name="compile" depends="clean">
+	<target name="build" depends="clean">
 
 		<mkdir dir="${classOutputDir}/classes" />
 
@@ -43,7 +43,7 @@
 
 	</path>
 
-	<target name="test" depends="compile">
+	<target name="test" depends="build">
 
 		<mkdir dir="${classOutputDir}/test-result" />
 
