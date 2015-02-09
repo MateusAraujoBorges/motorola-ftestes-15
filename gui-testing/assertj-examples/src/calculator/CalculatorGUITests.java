@@ -43,7 +43,7 @@ public class CalculatorGUITests extends AssertJSwingJUnitTestCase {
 		
 		try {
 			window.textBox("lcd").requireText("6");
-		} catch (Exception e) {
+		} catch (Throwable e) {
 			ScreenshotTaker taker = new ScreenshotTaker();
 			taker.saveDesktopAsPng("test.png");
 			throw e;
