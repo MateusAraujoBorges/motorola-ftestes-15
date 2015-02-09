@@ -1,5 +1,7 @@
 package org.assertj.swing.junit.examples.getting_started;
 
+import static org.junit.Assert.*;
+
 import org.assertj.swing.aut.getting_started.SimpleCopyApplication;
 import org.assertj.swing.edt.FailOnThreadViolationRepaintManager;
 import org.assertj.swing.edt.GuiActionRunner;
@@ -34,6 +36,17 @@ public class SimpleCopyApplicationTest {
     window.textBox("textToCopy").enterText("Some random text");
     window.button("copyButton").click();
     window.label("copiedText").requireText("Some random text");
+  }
+  
+  @Test
+  public void shouldShowEmptyStringAndBeVisible() {
+	  window.textBox("textToCopy").requireText("");
+	  //Don't use requireVisible - it's broken in the latest build!
+	  // window.label("copiedText").requireVisible();
+	  //Use "target()" to get the source component + default JUnit assertions
+	  assertTrue(window.label("copiedText").target().isVisible());
+	  window.button("copyButton").click();
+	  window.label("copiedText").requireText("");
   }
 
   @After
